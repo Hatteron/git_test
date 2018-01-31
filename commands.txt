@@ -1,5 +1,5 @@
 Настройки гит
-git config --global user.name "totobudet"
+git config --global user.name "Hatteron"
 git config --global user.email "totobudet@gmail.com"
 git config --global core.autocrlf true
 
@@ -11,7 +11,7 @@ git help commit - Помощь
 
 git init - зарегестрировать репозиторий
 
-git --list - узнать информацию о аккаунте
+git config --list - узнать информацию о аккаунте
 
 git status - увидеть статус репозитория
 
@@ -19,3 +19,16 @@ git add . - добавить все файлы в репозиторий, обн
 
 git commit -m "first commit" - сделать коммит, добавить сохраниние версии текущих файлов
 
+//** 
+Добавить репозиторий, подключиться к githab
+git remote add origin https://github.com/Hatteron/git_test.git
+git push -u origin master
+//**
+
+
+git clone https://github.com/jquery/jquery.git - Скопировать репозиторий
+
+$ git branch vetka5 - создать новую ветку
+$ git checkout vetka5 - начать работать с веткой
+$ git checkout -b vetka5 - сокращение 
+// Можно переключаться между ветками
