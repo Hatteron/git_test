@@ -13,7 +13,7 @@ git init - зарегестрировать репозиторий
 
 git config --list - узнать информацию о аккаунте
 
-git status - увидеть статус репозитория
+git status - увидеть статус репозитория, проверить ошибки
 
 git add . - добавить все файлы в репозиторий, обновить файл
 
@@ -28,7 +28,11 @@ git push -u origin master
 
 git clone https://github.com/jquery/jquery.git - Скопировать репозиторий
 
-$ git branch vetka5 - создать новую ветку
-$ git checkout vetka5 - начать работать с веткой
-$ git checkout -b vetka5 - сокращение 
+git branch vetka5 - создать новую ветку
+git checkout vetka5 - начать работать с веткой
+git checkout -b vetka5 - сокращение 
 // Можно переключаться между ветками
+
+git merge vetka5 - добавить изменения побочной ветки в master, сделать слияние
+git branch -d vetka5 - удалить ветку 
+git mergetool - графически править ошибки
