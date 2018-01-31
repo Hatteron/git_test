@@ -1,0 +1,19 @@
+Настройки гит
+git config --global user.name "totobudet"
+git config --global user.email "totobudet@gmail.com"
+git config --global core.autocrlf true
+
+Комманды
+
+cd C:/OpenServer/domains/git_test - Выбрать репозиторий
+
+git help commit - Помощь
+
+git init - зарегестрировать репозиторий
+
+git --list - узнать информацию о аккаунте
+
+git status - увидеть статус репозитория
+
+git add . - добавить все файлы в репозиторий
+
