@@ -27,7 +27,8 @@ git push -u origin master
 
 
 git clone https://github.com/jquery/jquery.git - Скопировать репозиторий
-
+git branch - посмотреть какие есть ветки
+git branch -v - узнать последние коммиты веток
 git branch vetka5 - создать новую ветку
 git checkout vetka5 - начать работать с веткой
 git checkout -b vetka5 - сокращение 
@@ -44,4 +45,4 @@ git log -p -2 - отобразить последний коммит
 q - выйти из log
 
 // Настроить редактор
-git config --global core.editor "'D:\Sublime Text Build 3126 x64\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor "'D:\Sublime Text Build 3126 x64\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin -w"
