@@ -38,6 +38,7 @@ git merge vetka5 - добавить изменения побочной ветк
 git branch -d vetka5 - удалить ветку 
 git mergetool - графически править ошибки
 
+
 // История коммитов и операций
 git log
 git log --pretty=format:"%h - %an, %ar : %s" - Другой вид отображения
