@@ -1,0 +1,44 @@
+Настройки гит
+git config --global user.name "Hatteron"
+git config --global user.email "totobudet@gmail.com"
+git config --global core.autocrlf true
+
+Комманды
+
+cd C:/OpenServer/domains/git_test - Выбрать репозиторий
+
+git help commit - Помощь
+
+git init - зарегестрировать репозиторий
+
+git config --list - узнать информацию о аккаунте
+
+git status - увидеть статус репозитория, проверить ошибки
+
+git add . или "*.php"- добавить все файлы в индексирование гит, обновить файл
+git rn -cached index.php - удалить файлы из индексированих гит
+git commit -m "first commit" - сделать коммит, добавить сохраниние версии текущих файлов
+- a - коротко сразу сделать add
+//** 
+Добавить репозиторий, подключиться к githab
+git remote add origin https://github.com/Hatteron/git_test.git
+git push -u origin master
+//**
+
+
+git clone https://github.com/jquery/jquery.git - Скопировать репозиторий
+
+git branch vetka5 - создать новую ветку
+git checkout vetka5 - начать работать с веткой
+git checkout -b vetka5 - сокращение 
+// Можно переключаться между ветками
+
+git merge vetka5 - добавить изменения побочной ветки в master, сделать слияние
+git branch -d vetka5 - удалить ветку 
+git mergetool - графически править ошибки
+
+// История коммитов и операций
+git log
+git log --pretty=format:"%h - %an, %ar : %s" - Другой вид отображения
+git log -p -2 - отобразить последний коммит
+q - выйти из log
