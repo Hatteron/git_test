@@ -47,6 +47,9 @@ q - выйти из log
 
 // Настроить редактор
 git config --global core.editor "'D:\Sublime Text Build 3126 x64\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin -w"
-git config --global merge.tool WinMerge - утилита для редактирования мердж
+git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++' -multiInst -notabbar -nosession -noPlugin -w"
+
+git config --global merge.tool kdiff3 - утилита для редактирования мердж
 // Установить путь kdiff3
 git config --global merge.tool.kdiff3.cmd '"C:\Program Files\KDiff3\kdiff3.exe" $BASE $LOCAL $REMOTE -o $MERGED'
+git config --global mergetool.kdiff3.cmd '"C:\Program Files\KDiff3\kdiff3.exe" $BASE $LOCAL $REMOTE -o $MERGED'
