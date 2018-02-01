@@ -42,3 +42,6 @@ git log
 git log --pretty=format:"%h - %an, %ar : %s" - Другой вид отображения
 git log -p -2 - отобразить последний коммит
 q - выйти из log
+
+// Настроить редактор
+git config --global core.editor "'D:\Sublime Text Build 3126 x64\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin"
