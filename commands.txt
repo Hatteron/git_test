@@ -38,8 +38,6 @@ git merge vetka5 - добавить изменения побочной ветк
 git branch -d vetka5 - удалить ветку 
 git mergetool - графически править ошибки
 
-
-
 // История коммитов и операций
 git log
 git log --pretty=format:"%h - %an, %ar : %s" - Другой вид отображения
@@ -48,6 +46,6 @@ q - выйти из log
 
 // Настроить редактор
 git config --global core.editor "'D:\Sublime Text Build 3126 x64\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin -w"
-git config --global merge.tool kdff3 - утилита для редактирования мердж
+git config --global merge.tool WinMerge - утилита для редактирования мердж
 // Установить путь kdiff3
-git config --global mergetool.kdiff3cmd '"C:\Program Files\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
+git config --global merge.tool.kdiff3.cmd '"C:\Program Files\KDiff3\kdiff3.exe" $BASE $LOCAL $REMOTE -o $MERGED'
